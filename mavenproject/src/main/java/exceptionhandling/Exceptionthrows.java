@@ -1,0 +1,19 @@
+package exceptionhandling;
+
+public class Exceptionthrows {
+
+	public static void main(String[] args) throws VotingException {
+		// TODO Auto-generated method stub
+		int a=17;
+		if(a>=18) {
+			System.out.println("Eliglible for voting");
+		}
+		else {
+			throw new VotingException("Ineligible!!");
+		}
+
+	}
+
+	}
+
+
