@@ -1,9 +1,10 @@
 package assignment9;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class Colors {
 
+public class Arreayiterator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayList<String> c = new ArrayList<String>();
@@ -12,11 +13,9 @@ public class Colors {
         c.add("Green");
         c.add("Blue");
         c.add("Black");
-        System.out.println("Colors in the list: " + c);
-        
-       for(String s:c) {
-    	   System.out.println(s);
-       }
-	}
-
+        Iterator<String> i = c.iterator();
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
+    } 
 }

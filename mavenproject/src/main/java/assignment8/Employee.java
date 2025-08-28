@@ -7,9 +7,7 @@ public abstract class Employee {
     public Employee(int payment) {
         this.payment = payment;
     }
-
     public abstract int calculateSalary();
-
     }
 
 

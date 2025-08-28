@@ -30,7 +30,7 @@ public class ExcelCode {
  		sh = w.getSheet("Sheet1"); 
  		XSSFRow r = sh.getRow(row); 
  		XSSFCell c = r.getCell(col); 
- 		int val =   (int) c.getNumericCellValue();  //convert double to int using typecasting 
+ 		int val =   (int) c.getNumericCellValue();  //convert double to int using typecasting , to get integer values
  		return String.valueOf(val);   //convert int to string using valueOf() method 
  		//return val; 
  	 

@@ -2,7 +2,8 @@ package assignment9;
 
 import java.util.ArrayList;
 
-public class Colors {
+
+public class Arraylistget {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,10 +14,8 @@ public class Colors {
         c.add("Blue");
         c.add("Black");
         System.out.println("Colors in the list: " + c);
-        
-       for(String s:c) {
-    	   System.out.println(s);
-       }
+		
+		System.out.println("The element at position 2 is :" +c.get(1));
 	}
 
 }
